@@ -1,0 +1,67 @@
+body {
+  font-family: "Amaranth", sans-serif;
+}
+
+.section-welcome {
+  background-image: url("../Images/HomeBg.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -1;
+  font-size: 4rem;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  color: black;
+}
+
+.card:hover {
+  z-index: 100;
+  animation: scale 0.2s linear;
+  animation-fill-mode: forwards;
+  color: black;
+  box-shadow: 0 40px 80px 0 rgba(221, 214, 214, 0.2),
+    0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+@keyframes scale {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.1);
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-abilities {
+  font-size: 4rem;
+  background-image: url("../Images/online-web-design.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.section-footer {
+  box-shadow: 0 40px 80px 0 rgba(240, 237, 237, 0.2),
+    0 6px 20px 0 rgba(188, 186, 186, 0.19);
+}
+
+.home-img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 1rem;
+}

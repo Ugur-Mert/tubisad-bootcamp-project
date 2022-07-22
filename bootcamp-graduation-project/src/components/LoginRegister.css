@@ -1,0 +1,19 @@
+.section-login {
+  background-image: url("./Images/loginbg.jpg");
+  background-size: cover;
+  background-position: 100% 100%;
+  z-index: -1;
+}
+.section-register {
+  background-image: url("./Images/registerbg.jpg");
+  background-size: cover;
+  background-position: 100% 100%;
+  z-index: -1;
+}
+
+.section-account {
+  background-image: url("./Images/MyAccountBg.jpg");
+  background-size: cover;
+  background-position: 100% 100%;
+  z-index: -1;
+}
